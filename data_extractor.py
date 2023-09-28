@@ -1,8 +1,5 @@
 import os
 import sys
-directory_path = os.path.abspath(os.path.join('F:\LLM-project\cuda\Lib\site-packages'))
-if directory_path not in sys.path:
-    sys.path.append(directory_path)
 import lzma
 from tqdm import  tqdm
 
