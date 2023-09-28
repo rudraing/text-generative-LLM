@@ -2,9 +2,6 @@ import pandas
 #imorting os and sys to add the path of different site_package\dir to jupyter notebook
 import os
 import sys
-directory_path = os.path.abspath(os.path.join('F:\LLM-project\cuda\Lib\site-packages'))
-if directory_path not in sys.path:
-    sys.path.append(directory_path)
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
